@@ -1,0 +1,62 @@
+{
+    "name": "manuxi/sulu-additional-contact-data-bundle",
+    "description": "Say hello to Sulu additional contact data!",
+    "type": "symfony-bundle",
+    "keywords": [
+        "sulu",
+        "suluCms",
+        "additional contact data"
+    ],
+    "homepage": "https://github.com/manuxi/SuluAdditionalContactDataBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuxi",
+            "email": "manu@bytefresser.de"
+        }
+    ],
+    "require": {
+        "dantleech/phpcr-migrations-bundle": "^1.2",
+        "php": "^8.1",
+        "sulu/sulu": "^2.5",
+        "symfony/config": "^6.0",
+        "symfony/dependency-injection": "^6.0",
+        "symfony/framework-bundle": "^6.0",
+        "symfony/http-foundation": "^6.0",
+        "symfony/http-kernel": "^6.0",
+        "symfony/intl": "^6.0",
+        "symfony/translation": "^6.0",
+        "symfony/security-core": "^6.0",
+        "sensio/framework-extra-bundle": "^6.2"
+    },
+    "require-dev": {
+        "jackalope/jackalope-doctrine-dbal": "^1.3.4",
+        "phpunit/phpunit": "^8.0",
+        "symfony/browser-kit": "^6.0",
+        "symfony/phpunit-bridge": "^6.0",
+        "symfony/console": "^6.0",
+        "phpspec/prophecy": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Manuxi\\SuluAdditionalContactDataBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Manuxi\\SuluAdditionalContactDataBundle\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@phpunit"
+        ],
+        "phpunit": "vendor/bin/phpunit"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "symfony/flex": true
+        }
+    }
+}

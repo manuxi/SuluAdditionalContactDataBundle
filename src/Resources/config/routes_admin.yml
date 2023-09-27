@@ -1,0 +1,5 @@
+sulu_additional_contact_data_api:
+    type: rest
+    prefix: /admin/api
+    resource: additional_contact_data.controller.admin
+    name_prefix: sulu_additional_contact_data.

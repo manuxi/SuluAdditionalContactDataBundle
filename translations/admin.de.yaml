@@ -1,0 +1,7 @@
+additional_contact_data:
+    additional_data:
+        Zusätzliche Daten
+    social_security_number:
+        Sozialversicherungsnummer
+    external_crm_id:
+        "Externe CRM ID"
